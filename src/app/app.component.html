@@ -3,12 +3,13 @@
     <app-sidebar></app-sidebar>
   </div>
   <div class="content">
- 
     <div class="main-content px-3 pt-4">
-      <router-outlet></router-outlet>
-      <div class="content">
-        <app-footer></app-footer>
+      <div class="main-comp">
+        <router-outlet></router-outlet>
+      </div>
     </div>
+    <div class="content footer">
+      <app-footer></app-footer>
     </div>
   </div>
 </div>
